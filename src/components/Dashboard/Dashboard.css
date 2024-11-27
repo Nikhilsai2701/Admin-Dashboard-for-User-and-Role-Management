@@ -1,0 +1,27 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background: #001529;
+  color: white;
+}
+
+.welcome-message {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.quick-links {
+  margin-top: 20px;
+}
+
+.quick-link-card {
+  cursor: pointer;
+}
+
+.quick-links h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}

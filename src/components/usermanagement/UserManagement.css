@@ -1,0 +1,127 @@
+/* General container style */
+.user-management-container {
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+/* Actions section styling */
+.actions {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions .ant-input, .actions .ant-select {
+  margin-right: 10px;
+}
+
+.actions .ant-input {
+  width: 200px;
+}
+
+.actions .ant-select {
+  width: 150px;
+}
+
+/* Table Styles */
+.ant-table {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ant-table-thead > tr > th {
+  background-color: #f0f2f5;
+  color: #1890ff;
+  font-weight: bold;
+  padding: 16px;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+.ant-table-tbody > tr > td {
+  padding: 12px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.ant-table-tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.ant-table-row-cell:last-child {
+  text-align: center;
+}
+
+.ant-table-row-cell {
+  vertical-align: middle;
+}
+
+/* Modal and Button Styles */
+.ant-btn {
+  border-radius: 4px;
+}
+
+.ant-btn-link {
+  font-size: 16px;
+  color: #1890ff;
+  padding: 0;
+}
+
+.ant-btn-link:hover {
+  color: #40a9ff;
+}
+
+.ant-btn-primary {
+  background-color: #1890ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.ant-btn-primary:hover {
+  background-color: #40a9ff;
+}
+
+/* Custom Select for Assign Role */
+.ant-select {
+  width: 150px;
+  border-radius: 4px;
+}
+
+.ant-select-selector {
+  height: 32px;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+
+.ant-select-arrow {
+  color: #1890ff;
+}
+
+/* Styling for the "Edit" Button in Table */
+.ant-btn-link:hover {
+  color: #40a9ff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .user-management-container {
+    padding: 15px;
+  }
+
+  .actions .ant-input, .actions .ant-select {
+    width: 100%;
+  }
+
+  .ant-table .ant-table-thead > tr > th {
+    font-size: 14px;
+  }
+
+  .ant-table .ant-table-tbody > tr > td {
+    font-size: 14px;
+  }
+
+  .ant-select {
+    width: 100%;
+  }
+}

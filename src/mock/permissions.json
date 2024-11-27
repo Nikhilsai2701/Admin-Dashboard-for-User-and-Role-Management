@@ -1,0 +1,6 @@
+[
+    { "id": "read", "label": "Read" },
+    { "id": "write", "label": "Write" },
+    { "id": "delete", "label": "Delete" }
+  ]
+  
